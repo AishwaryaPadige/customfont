@@ -28,6 +28,15 @@
   font-display: swap;
 }
 
+/* Italic for Medium */
+@font-face {
+  font-family: 'BentonSans';
+  src: url('benton_sans-medium-webfont.woff2') format('woff2'),
+       url('benton_sans-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
 
 /* BentonSans Bold */
 @font-face {
@@ -39,6 +48,15 @@
   font-display: swap;
 }
 
+/* Italic for Bold */
+@font-face {
+  font-family: 'BentonSans';
+  src: url('BentonSans-Bold.woff2') format('woff2'),
+       url('BentonSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
 
 /* BentonSans Black */
 @font-face {
@@ -47,6 +65,16 @@
        url('BentonSans-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
+}
+
+/* Italic for Black */
+@font-face {
+  font-family: 'BentonSans';
+  src: url('BentonSans-Black.woff2') format('woff2'),
+       url('BentonSans-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
   font-display: swap;
 }
 
